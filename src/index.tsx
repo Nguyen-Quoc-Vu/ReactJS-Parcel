@@ -1,11 +1,14 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import "./styles.scss"
-type Props = {}
-
-const App = (props: Props) => {
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './styles.scss'
+const App = () => {
   return (
-    <div><button className="button">Here</button></div>
+  <div>
+        <button className="button">
+          hello
+        
+        </button>
+    </div>
   )
 }
-ReactDOM.render(<App/>,document.getElementById("root"));
+ReactDOM.render(<App/>,document.getElementById('root'));
