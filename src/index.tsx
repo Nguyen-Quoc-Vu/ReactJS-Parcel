@@ -1,13 +1,20 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './styles.scss';
-const App = () => {
+import React from 'react'
+import ReactDOM from 'react-dom'
+import './styles.scss'
+
+function App() {
 	return (
 		<div>
-			<button className="button">
-          Sample Button
+			<button className="button" type="button">
+				Sample Button
+			</button>
+			<button className="button" type="button">
+				Sample Button
+			</button>
+			<button className="button" type="button">
+				Sample Button
 			</button>
 		</div>
-	);
-};
-ReactDOM.render(<App/>,document.getElementById('root'));
+	)
+}
+ReactDOM.render(<App />, document.getElementById('root'))
